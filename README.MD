@@ -16,3 +16,7 @@ foi bem complicado no começo pensar em um layout, apesar deste ser bem básico,
 Tecnologias utilizadas:
 HTML --> na criação da página
 CSS --> na estilização
+
+
+## 03/04/2024
+Que dificuldade maldita, para subir essa droga de site direito, tomando uma puta surra só para organizar os caminhos até os directórios 
