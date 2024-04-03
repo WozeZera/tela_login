@@ -1,4 +1,4 @@
 [ ] Página de esqueci a minha senha
 [ ] fazer validação dos formulários
-[ ] fazer um README.ME
-[ ] arrumar projeto
+[X] fazer um README.ME
+[X] arrumar projeto
