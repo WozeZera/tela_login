@@ -1,0 +1,107 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: "Poppins", sans-serif;
+    box-sizing:border-box;
+}
+
+body {
+    
+    background-color:rgba(133, 204, 133, 0.247);
+}
+
+.form{
+
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+
+}
+.form > form  > a {
+	padding: 5px 15px;
+	background-color:grey;
+	color: black;
+    margin-top:10px;
+	font-weight: bolder;
+	text-decoration: none;
+	border: none;
+	border: 1px solid black;
+	box-shadow: -1px 2px 3px black;
+	border-radius: 3px;
+	transition: 0.3s;
+}
+
+.form > form  > a:hover {
+	transition: 0.3s;
+	cursor: pointer;
+	color: rgb(13, 46, 105);
+	transform:scale(1.1);
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.form > form {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: rgb(8, 82, 29);
+	border-right: 2px solid black;
+	box-shadow: 1px 2px 10px black;
+	border-bottom: 2px solid black;
+	width: 50vw;
+	height: 100vh;
+    padding:20px;
+    margin-top:2.3rem;
+	margin-left: 1px;
+	display: flex;
+	flex-flow: column;
+	border-radius: 10px;
+	justify-content: center;
+    color:rgb(141, 138, 138);
+	align-items: center;
+    transition:0.3s ease;
+
+}
+
+.form > form:hover{
+    transition:0.3s ease;
+    background-color: rgb(13, 99, 37);
+    color:white;
+}
+
+form > div > input{
+    background-color: rgb(250, 229, 201);
+    border:none;
+    box-shadow:0px 1px 4px 0px black;
+    padding:5px 4px;
+    width:20rem;
+    outline:none;
+    text-align:left;
+}
+
+.form > form >button {
+	padding: 10px 30px;
+	background-color: rgb(88, 148, 70);
+	color: black;
+    margin-top:10px;
+	font-weight: bolder;
+	text-decoration: none;
+	border: none;
+	border: 1px solid black;
+	box-shadow: -1px 2px 3px black;
+	border-radius: 3px;
+	transition: 0.3s;
+}
+
+.form > form >button:hover {
+	transition: 0.3s;
+	cursor: pointer;
+	color: white;
+	background: rgba(0, 0, 0, 0.9);
+    transform:scale(1.1);
+}
+
+.form > img{
+    width:4;
+    margin:0 auto;
+    display:inline;
+}
